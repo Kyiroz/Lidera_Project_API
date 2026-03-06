@@ -25,7 +25,7 @@ python manage.py runserver
 
 >> Terminal 2 - FastAPI:
 
-uvicorn fastapi_bridge:app --reload --port 8001
+uvicorn fastapi_app:app --reload --port 8001
 
 > [!NOTE]
 > Si se hizo un cambio en models.py:
